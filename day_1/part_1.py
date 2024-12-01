@@ -25,3 +25,9 @@ for x, y in zip(col1, col2):
 
 print(answer)
 
+## Part 2
+answer2 = 0 
+for val in col1:
+	answer2 += (val * col2.count(val))
+
+print(answer2)
